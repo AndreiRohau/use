@@ -1,3 +1,5 @@
 1) open commandPromt
 2) Execute: [SETX /M JAVA_HOME "C:\Program Files\Java\jdk-11-or-else"]
 3) Execute: [setx /M PATH "%PATH%;%JAVA_HOME%\bin"]
+
+NB! to restore recently changed env var: [echo %PATH%]
