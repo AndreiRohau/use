@@ -1,0 +1,15 @@
+GIT BASH
+
+ssh-keygen -t rsa -b 4096 -C "r.a@gmail.com"
+#enter
+#enter pphrase
+#enter ppharse
+eval $(ssh-agent -s)
+ssh-add ~/.ssh/id_rsa
+clip < ~/.ssh/id_rsa.pub
+
+
+In github.com/your_login -> click on your portrait -> Settings -> SSH and GPG keys -> New SSH key
+Any name
+Ctrl+V
+#Enter
