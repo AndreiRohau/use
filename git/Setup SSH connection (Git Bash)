@@ -12,4 +12,4 @@ clip < ~/.ssh/id_rsa.pub
 In github.com/your_login -> click on your portrait -> Settings -> SSH and GPG keys -> New SSH key
 Any name
 Ctrl+V
-#Enter
+#Enter'
